@@ -1,0 +1,27 @@
+.button {
+    border-style: none;
+    height: 40px;
+    padding: 6px 12px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: box-shadow .6s ease;
+    border-radius: 5px;
+}
+
+button.green {
+    background-color: #00d748;
+}
+
+button.yellow {
+    background-color: #ffca00;
+}
+
+button.red {
+    background-color: #ff3d57;
+}
+
+button:hover {
+    box-shadow: inset 200px 0 0 #00000055;
+}
